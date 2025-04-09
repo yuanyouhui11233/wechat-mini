@@ -11,7 +11,7 @@ import {
   DELIVERY_LNG,
 } from "./config/settings.js";
 export const requestHeader = {
-  Host: "searchgw.dlcsos.com",
+  // Host: "searchgw.dlcsos.com",
   Connection: "keep-alive",
   "Content-Length": 3084,
   grayVenderId: 70213,

@@ -2,6 +2,13 @@ import axios from "axios";
 import { requestHeader } from "../request-header.js";
 import { CHANNEL, DEVICE_ID, PLATFORM, VERSION } from "../config/settings.js";
 
+/**
+ * 搜索
+ *
+ * 请求头
+ * Host：searchgw.dlcsos.com
+ */
+
 const url = "https://searchgw.dlcsos.com/app/new/search/wareSearch";
 
 const d_track_data = {
